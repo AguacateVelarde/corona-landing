@@ -3,7 +3,6 @@ var loadJobs = ()=>{
   fetch('assets/jobs.json')
   .then( r => r.json() )
   .then( res => {
-    console.log( res )
     var imgid = document.getElementById('vacantesImg')
     let content  = ''
     res.forEach( async x => {
@@ -14,11 +13,11 @@ var loadJobs = ()=>{
 }
 
 var render = ( obj )=>{
-  console.log( obj )
   return `
-    <div class=" col-md-3 mt-3">
-      <figure class="snip1573"><img src="assets/img/${ obj.img }" alt="sample94" />
-        <figcaption>
+    <div class="col-md-3 mt-3 text-center">
+      <figure class="snip1573 text-center">
+        <img src="assets/img/${ obj.img }" alt="sample94" class="img-responsive center-block"/>
+      <figcaption>
           <h3>Aplicar</h3>
         </figcaption>
         <a href="#"></a>

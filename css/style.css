@@ -3306,10 +3306,12 @@ tbody.collapse.show {
   padding-top: .3125rem;
   padding-bottom: .3125rem;
   margin-right: 1rem;
-  font-size: 1.75rem;
+  font-size: 1.9rem;
   line-height: inherit;
   white-space: nowrap;
-  color: white !important
+  color: white !important;
+  font-weight: bold;
+
 }
 
 .navbar-brand:focus, .navbar-brand:hover {
@@ -10987,7 +10989,7 @@ textarea {
 }
 
 .page-header {
-  height: 55vh;
+  height: 100vh;
 
   background-position: 50%;
   background-size: cover;
@@ -11817,7 +11819,7 @@ html * {
 
 .h6, h6 {
   font-size: .75rem;
-  text-transform: uppercase;
+
   font-weight: 500
 }
 
@@ -14709,7 +14711,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .card-pricing ul {
-  list-style: none;
+  
   padding: 0;
   max-width: 240px;
   margin: 10px auto
@@ -17109,4 +17111,8 @@ ul, ol {
     opacity: 0;
     visibility: hidden;
     transition: .22s ease;
+}
+.sub{
+  background-color: rgba(231,174,34,1);
+  color:black;
 }
