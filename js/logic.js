@@ -19,8 +19,9 @@ var render = ( obj )=>{
         <img src="assets/img/${ obj.img }" alt="sample94" class="img-responsive center-block"/>
       <figcaption>
           <h3>Aplicar</h3>
+        
         </figcaption>
-        <a href="#"></a>
+        <a href="${ obj.url }"></a>
       </figure>
     </div>
   `

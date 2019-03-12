@@ -1,28 +1,18 @@
 [
   {
-    "trabajo" : "Diseñador",
-    "url" : "google.com",
+    "url" : "http://google.com",
     "img" : "arte_finalista.jpeg",
-    "Descripcion" : "Lorem ipsum lorem lorem"
   },{
-    "trabajo" : "Diseñador",
-    "url" : "google.com",
+    "url" : "http://google.com",
     "img" : "arte_finalista.jpeg",
-    "Descripcion" : "Lorem ipsum lorem lorem"
   },{
-    "trabajo" : "Diseñador",
-    "url" : "google.com",
+    "url" : "http://google.com",
     "img" : "arte_finalista.jpeg",
-    "Descripcion" : "Lorem ipsum lorem lorem"
   },{
-    "trabajo" : "Diseñador",
-    "url" : "google.com",
+    "url" : "http://google.com",
     "img" : "arte_finalista.jpeg",
-    "Descripcion" : "Lorem ipsum lorem lorem"
   },{
-    "trabajo" : "Diseñador",
-    "url" : "google.com",
+    "url" : "http://google.com",
     "img" : "arte_finalista.jpeg",
-    "Descripcion" : "Lorem ipsum lorem lorem"
   }
 ]

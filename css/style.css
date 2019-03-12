@@ -198,6 +198,7 @@ sup {
 a {
   text-decoration: none;
   background-color: transparent;
+
   -webkit-text-decoration-skip: objects
 }
 
@@ -14711,7 +14712,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .card-pricing ul {
-  
+
   padding: 0;
   max-width: 240px;
   margin: 10px auto
@@ -17115,4 +17116,20 @@ ul, ol {
 .sub{
   background-color: rgba(231,174,34,1);
   color:black;
+}
+.convocatoria{
+  border: 3px solid black;
+  width: 400px;
+  height: 300px;
+
+}
+.convocatoria > p{
+    font-size: 18px !important;
+}
+.cont{
+    height: 300px !important;
+    width: auto;
+}
+.terminos{
+    color: rgba(231,174,34,1) !important;
 }
