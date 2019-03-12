@@ -17133,3 +17133,7 @@ ul, ol {
 .terminos{
     color: rgba(231,174,34,1) !important;
 }
+
+ul.a {
+  list-style-type: circle;
+}
