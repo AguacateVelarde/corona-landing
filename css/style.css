@@ -10988,9 +10988,11 @@ textarea {
 .nav .nav-item {
   position: relative
 }
-
+.v-50 {
+  height: 50vh !important;
+}
 .page-header {
-  height: 50vh;
+  height: 100vh;
 
   background-position: 50%;
   background-size: cover;
